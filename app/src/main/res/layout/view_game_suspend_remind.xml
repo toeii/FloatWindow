@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_suspend_remind"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:orientation="vertical" 
+    >
+
+    <TextView
+        android:id="@+id/tv_suspend_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="翻一翻可以显示/隐藏小图标"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iv_suspend_remind"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_suspend_remindwindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+
+        <CheckBox
+            android:id="@+id/cb_suspend_remindwindow"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_suspend_remindwindow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="不再提醒"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" 
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_suspend_remind_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp"
+        >
+
+        <Button
+            android:id="@+id/btn_suspend_remind_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#646668"
+            android:text="取消"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:id="@+id/btn_suspend_remind_hide"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#FF6100"
+            android:text="隐藏"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" 
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
