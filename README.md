@@ -4,7 +4,7 @@
 
 ##效果图
 
-![image](https://github.com/toeii/FloatWindow/tree/master/images/float_window.gif)
+![gif](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)
 
 
 #介绍
