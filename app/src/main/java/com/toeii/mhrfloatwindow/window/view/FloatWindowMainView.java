@@ -242,7 +242,7 @@ public class FloatWindowMainView extends LinearLayout implements SensorEventList
 			mWindowParams.x = 0;
 		}
 		if (mWindowParams.y > mScreenHeigh - ScreenUtils.dip2px(mContext, 48)) {
-			mWindowParams.y = mScreenHeigh - ScreenUtils.dip2px(mContext, 48);
+			mWindowParams.y = mScreenHeigh - (ScreenUtils.dip2px(mContext, 48));//这里没有减状态栏高度。某些应用接入时是隐藏状态栏的,感觉所需要的情况去修改吧
 		} else if (mWindowParams.y <= 0) {
 			mWindowParams.y = 0;
 		}
