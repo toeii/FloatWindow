@@ -2,10 +2,6 @@
 
 ---
 
-##效果图
-
-![gif](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)
-
 
 #介绍
 - 该悬浮窗实现了久游悬浮窗的大部分效果。
