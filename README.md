@@ -1,6 +1,6 @@
 # 仿久游悬浮窗
 
-###DEMO
+# DEMO
 ![](https://github.com/toeii/FloatWindow/tree/master/images/float_window.gif)
 
 # introduce
