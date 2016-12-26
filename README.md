@@ -1,7 +1,7 @@
 # 仿久游悬浮窗
 
 # DEMO
-![](https://github.com/toeii/FloatWindow/tree/master/images/float_window.gif)
+![](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)
 
 # introduce
 - A floating window menu
