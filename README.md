@@ -1,4 +1,4 @@
-# 仿久游悬浮窗
+# 仿久游悬浮窗（没换图片）
 
 # DEMO
 ![](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)
