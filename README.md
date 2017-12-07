@@ -1,6 +1,3 @@
-# DEMO
-![](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)
-
 # introduce
 - A floating window menu
 - Function:
@@ -17,6 +14,11 @@
 - 菜单检出、翻转显示隐藏、滑动处理、定时贴边以及透明化...
 - 最低兼容到2.3+
 - 脱离service
+
+# DEMO
+![](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)
+
+
 
   
   
