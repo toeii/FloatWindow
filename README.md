@@ -15,7 +15,9 @@
 - 最低兼容到2.3+
 - 脱离Service
 
-# DEMO
-![](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)
+# Demo
+old                     |  new
+:-------------------------:|:-------------------------:
+![before](https://github.com/toeii/FloatWindow/blob/master/images/float_window.gif)   |  ![after](https://github.com/toeii/FloatWindow/blob/master/images/float_window_new.gif)
 
   
