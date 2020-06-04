@@ -9,8 +9,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <TextView
-
-        android:text="Hello World!"
+        android:text="Game SDK FloatWindow Demo Test!"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        />
 </RelativeLayout>

@@ -73,9 +73,9 @@ public class FloatWindowManager {
         } else {
             wmLayoutParams.type = WindowManager.LayoutParams.TYPE_PHONE;
         }
+
         wmLayoutParams.format = PixelFormat.RGBA_8888;
-        wmLayoutParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS;
-        wmLayoutParams.flags = wmLayoutParams.flags | WindowManager.LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH;
+        wmLayoutParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
 
         wmLayoutParams.alpha = 1.0f;
 

@@ -1,5 +1,6 @@
 package com.toeii.mhrfloatwindow.window.view;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.hardware.Sensor;
@@ -8,6 +9,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Build;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -134,6 +136,7 @@ public class FloatWindowMainView extends LinearLayout implements SensorEventList
 
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
+		Log.d("toeii","onTouchEvent--------->"+event.getAction());
 		mNowX = event.getRawX();
 		mNowY = event.getRawY() - ScreenUtils.getStatusHeight(mContext);
 		switch (event.getAction()) {
@@ -432,16 +435,16 @@ public class FloatWindowMainView extends LinearLayout implements SensorEventList
 	private void initMenuDefaultData() {
 		ArrayList<SuspendMenuEntity> suspendMenuBeans = new ArrayList<>();
 		SuspendMenuEntity suspendMenuEntity1 = new SuspendMenuEntity();
-		suspendMenuEntity1.setMenuItemName("第一");
+		suspendMenuEntity1.setMenuItemName("菜单1");
 
 		SuspendMenuEntity suspendMenuEntity2 = new SuspendMenuEntity();
-		suspendMenuEntity2.setMenuItemName("第二");
+		suspendMenuEntity2.setMenuItemName("菜单2");
 
 		SuspendMenuEntity suspendMenuEntity3 = new SuspendMenuEntity();
-		suspendMenuEntity3.setMenuItemName("第三");
+		suspendMenuEntity3.setMenuItemName("菜单3");
 
 		SuspendMenuEntity suspendMenuEntity4 = new SuspendMenuEntity();
-		suspendMenuEntity4.setMenuItemName("第四");
+		suspendMenuEntity4.setMenuItemName("菜单4");
 
 		suspendMenuBeans.add(suspendMenuEntity1);
 		suspendMenuBeans.add(suspendMenuEntity2);

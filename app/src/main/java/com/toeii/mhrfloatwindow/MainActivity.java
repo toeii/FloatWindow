@@ -2,6 +2,8 @@ package com.toeii.mhrfloatwindow;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.toeii.mhrfloatwindow.window.FloatWindowManager;
 
@@ -12,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         FloatWindowManager.getInstance(this).showFloatWindow(this);
-
     }
 
     @Override
@@ -26,4 +27,5 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         FloatWindowManager.getInstance(this).destroyFloatWindow();
     }
+
 }
